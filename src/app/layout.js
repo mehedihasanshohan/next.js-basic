@@ -23,15 +23,20 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <nav className="">
+        <nav className="bg-slate-500 px-6 py-4">
           <h5>Logo</h5>
+          <div className="flex gap-4">
           <ul>
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
           </ul>
+          </div>
+
         </nav>
-        {children}
+        <div>
+          {children}
+        </div>
       </body>
     </html>
   );
