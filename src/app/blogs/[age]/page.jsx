@@ -12,7 +12,10 @@ const BlogDetailspage = ({params}) => {
   return (
     <div>
     <div className='mt-4'></div>
-      <h2>Blogs Details of {name}</h2>
+      <h2>Blogs Details of:</h2>
+      <h2>{name}</h2>
+      <h2>{age}</h2>
+
     </div>
   )
 }

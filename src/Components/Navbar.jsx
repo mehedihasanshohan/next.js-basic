@@ -21,12 +21,16 @@ const Navbar = () => {
       path: "/contact"
     },
     {
-      title:"login",
+      title:"Login",
       path: "/login"
     },
     {
-      title:"blogs",
+      title:"Blogs",
       path: "/blogs"
+    },
+    {
+      title:"Category",
+      path: "/category"
     },
   ]
 
