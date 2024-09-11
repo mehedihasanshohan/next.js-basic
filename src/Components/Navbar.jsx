@@ -24,6 +24,10 @@ const Navbar = () => {
       title:"login",
       path: "/login"
     },
+    {
+      title:"blogs",
+      path: "/blogs"
+    },
   ]
 
   const handler = () => {
@@ -39,7 +43,7 @@ const Navbar = () => {
             links?.map((link) => <Link className={`${pathName=== link.path && "text-green-200"}`} key={link.path} href={link.path}>{link.title}</Link>)
           }
          </ul>
-         <button onClick={handler} className="bg-black text-white">Login</button>
+         <button onClick={handler} className="bg-rose-100 text-orange-700 rounded px-4">Login</button>
       </nav>
     </div>
   )
